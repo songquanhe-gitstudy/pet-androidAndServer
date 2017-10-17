@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_jump_to_right.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_jump_to_right.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_scale_up.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_scale_up.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_roll_from_down.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_roll_from_down.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_roll_to_right.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_roll_to_right.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_jump_to_down.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_jump_to_down.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_roll_to_down.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_roll_to_down.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_jump_from_down.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_jump_from_down.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_jump_from_right.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_jump_from_right.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_scale_down.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_scale_down.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11\\fab_roll_from_right.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\anim-v11\\fab_roll_from_right.xml"
+    }
+]

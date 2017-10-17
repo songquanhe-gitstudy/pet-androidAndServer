@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.MessageBoardMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.MessageBoard">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ub_id" jdbcType="INTEGER" property="ubId" />
+    <result column="um_id" jdbcType="INTEGER" property="umId" />
+    <result column="m_content" jdbcType="VARCHAR" property="mContent" />
+    <result column="m_data" jdbcType="VARCHAR" property="mData" />
+    <result column="m_type" jdbcType="VARCHAR" property="mType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, ub_id, um_id, m_content, m_data, m_type
+  </sql>
+  
+  <select id="getTotalBoardItemsBymId" resultMap="BaseResultMap">
+  	select
+  	<include refid="Base_Column_List"/>
+  	from t_message_board
+  	where um_id = #{param1,jdbcType=INTEGER}
+  	order by id desc
+  	limit #{param2.start}, #{param2.pageSize}
+  </select>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_message_board
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_message_board
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.MessageBoard">
+    insert into t_message_board (id, ub_id, um_id, 
+      m_content, m_data, m_type
+      )
+    values (#{id,jdbcType=INTEGER}, #{ubId,jdbcType=INTEGER}, #{umId,jdbcType=INTEGER}, 
+      #{mContent,jdbcType=VARCHAR}, #{mData,jdbcType=VARCHAR}, #{mType,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.MessageBoard">
+    insert into t_message_board
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="ubId != null">
+        ub_id,
+      </if>
+      <if test="umId != null">
+        um_id,
+      </if>
+      <if test="mContent != null">
+        m_content,
+      </if>
+      <if test="mData != null">
+        m_data,
+      </if>
+      <if test="mType != null">
+        m_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="ubId != null">
+        #{ubId,jdbcType=INTEGER},
+      </if>
+      <if test="umId != null">
+        #{umId,jdbcType=INTEGER},
+      </if>
+      <if test="mContent != null">
+        #{mContent,jdbcType=VARCHAR},
+      </if>
+      <if test="mData != null">
+        #{mData,jdbcType=VARCHAR},
+      </if>
+      <if test="mType != null">
+        #{mType,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.MessageBoard">
+    update t_message_board
+    <set>
+      <if test="ubId != null">
+        ub_id = #{ubId,jdbcType=INTEGER},
+      </if>
+      <if test="umId != null">
+        um_id = #{umId,jdbcType=INTEGER},
+      </if>
+      <if test="mContent != null">
+        m_content = #{mContent,jdbcType=VARCHAR},
+      </if>
+      <if test="mData != null">
+        m_data = #{mData,jdbcType=VARCHAR},
+      </if>
+      <if test="mType != null">
+        m_type = #{mType,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.MessageBoard">
+    update t_message_board
+    set ub_id = #{ubId,jdbcType=INTEGER},
+      um_id = #{umId,jdbcType=INTEGER},
+      m_content = #{mContent,jdbcType=VARCHAR},
+      m_data = #{mData,jdbcType=VARCHAR},
+      m_type = #{mType,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.cCommentMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.cComment">
+    <id column="id" jdbcType="INTEGER" property="cCid" />
+    <result column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="u_id" jdbcType="INTEGER" property="uId" />
+    <result column="c_toRep_id" jdbcType="INTEGER" property="cTorepId" />
+    <result column="c_content" jdbcType="VARCHAR" property="cContent" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, c_id, u_id, c_toRep_id, c_content
+  </sql>
+  
+  <select id="getSpecifytComments" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_comment
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  
+  <insert id="insertByIds" parameterType="com.backend.domain.cComment">
+    insert into t_circle_comment (c_id, u_id, 
+      c_toRep_id, c_content)
+    values #{param1,jdbcType=INTEGER}, #{param2,jdbcType=INTEGER}, 
+      #{param3,jdbcType=INTEGER}, #{param4,jdbcType=VARCHAR})
+  </insert>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_comment
+    where id = #{cCid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_circle_comment
+    where id = #{cCid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.cComment">
+    insert into t_circle_comment (id, c_id, u_id, 
+      c_toRep_id, c_content)
+    values (#{cCid,jdbcType=INTEGER}, #{cId,jdbcType=INTEGER}, #{uId,jdbcType=INTEGER}, 
+      #{cTorepId,jdbcType=INTEGER}, #{cContent,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.cComment">
+    insert into t_circle_comment
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cCid != null">
+        id,
+      </if>
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="uId != null">
+        u_id,
+      </if>
+      <if test="cTorepId != null">
+        c_toRep_id,
+      </if>
+      <if test="cContent != null">
+        c_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cCid != null">
+        #{cCid,jdbcType=INTEGER},
+      </if>
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="cTorepId != null">
+        #{cTorepId,jdbcType=INTEGER},
+      </if>
+      <if test="cContent != null">
+        #{cContent,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.cComment">
+    update t_circle_comment
+    <set>
+      <if test="cId != null">
+        c_id = #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="cTorepId != null">
+        c_toRep_id = #{cTorepId,jdbcType=INTEGER},
+      </if>
+      <if test="cContent != null">
+        c_content = #{cContent,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{cCid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.cComment">
+    update t_circle_comment
+    set c_id = #{cId,jdbcType=INTEGER},
+      u_id = #{uId,jdbcType=INTEGER},
+      c_toRep_id = #{cTorepId,jdbcType=INTEGER},
+      c_content = #{cContent,jdbcType=VARCHAR}
+    where id = #{cCid,jdbcType=INTEGER}
+  </update>
+</mapper>

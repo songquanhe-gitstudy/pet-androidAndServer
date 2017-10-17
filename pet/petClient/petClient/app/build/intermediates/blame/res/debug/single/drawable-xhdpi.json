@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_pet_toies_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_pet_toies_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\leftbackicon_titlebar_pressed.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\leftbackicon_titlebar_pressed.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nighticon_profile.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\nighticon_profile.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_daily_feed_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_daily_feed_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nan.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\nan.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\helthy.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\helthy.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tips_smile.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\tips_smile.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\together_attention.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\together_attention.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\de_bg.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\de_bg.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\login_count.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\login_count.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_daily_necessities_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_daily_necessities_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\me.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\me.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_setting.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_setting.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nighticon_profile_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\nighticon_profile_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\login_wait.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\login_wait.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\favoriteicon_profile.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\favoriteicon_profile.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pop_photo.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\pop_photo.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_medical_treament_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_medical_treament_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_circle_message.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_circle_message.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_true.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\icon_true.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_board_message.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_board_message.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\biz_chat_comment_send_prs.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\biz_chat_comment_send_prs.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nv.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\nv.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\circle.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\circle.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_main_feed_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_main_feed_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_fens.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_fens.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\news_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\news_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\petshopping_search.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\petshopping_search.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_collect.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_collect.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tips_bg.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\tips_bg.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\setting.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_file.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_file.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\setting_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\setting_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\product_default.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\product_default.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_attention_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_attention_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon1_menu.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\icon1_menu.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\circle_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\circle_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\register_beautiful.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\register_beautiful.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\setupicon_profile.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\setupicon_profile.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_edit.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_edit.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\anonomity_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\anonomity_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_feedback.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_feedback.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ac_back_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ac_back_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\setupicon_profile_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\setupicon_profile_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_no_network.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_no_network.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\log_in_register.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\log_in_register.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\leftbackicon_titlebar_normal.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\leftbackicon_titlebar_normal.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_health_care_icon.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_health_care_icon.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_fens_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_fens_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_attention.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_attention.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_error.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_error.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delet_zhaopian_1x.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\delet_zhaopian_1x.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_file_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_file_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\biz_chat_comment_send.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\biz_chat_comment_send.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\setting_arrow.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\setting_arrow.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\addimg_1x.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\addimg_1x.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\healthy_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\healthy_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mine_recommend.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\mine_recommend.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shopping.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shopping.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shopping_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shopping_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_per_cancle.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\icon_per_cancle.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\name_arrow.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\name_arrow.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\favoriteicon_profile_press.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\favoriteicon_profile_press.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrows_down.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\arrows_down.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\more_right.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\more_right.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_empty.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_empty.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\healthy.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\healthy.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shop_default.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\shop_default.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edit.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\edit.png"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\news.png",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\drawable-xhdpi\\news.png"
+    }
+]

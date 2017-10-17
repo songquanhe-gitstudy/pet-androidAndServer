@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/personal_low_hurdle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_personal_attention"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="关注"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="#9f437EBF"
+        />
+    <Button
+        android:id="@+id/btn_personal_chat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="私聊"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:background="#9fFF5353"
+        />
+    </LinearLayout>
+</RelativeLayout>

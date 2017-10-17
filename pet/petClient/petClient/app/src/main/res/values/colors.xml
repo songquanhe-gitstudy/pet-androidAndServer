@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bar_red">#D33A31</color>
+    <color name="divide_content">#F4F4F4</color>
+    <color name="shop_onclick">#F9D8D8</color>
+    <color name="clear">#00000000</color>
+    <color name="block">#60000000</color>
+    <color name="blocks">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="action_button_pop">#FF5353</color>
+    <color name="trans_clor">#99FF5353</color>
+    <color name="button_press">#FF9999</color>
+    <color name="message_board">#F9D8D8</color>#
+    <color name="message_board_diriver">#F8E5E5</color>
+    <color name="press_iv_title_bar">#22000000</color>
+    <color name="unpress_iv_title_bar">#00ffffff</color>
+
+    <color name="press">#e8e8e8</color>
+
+    <color name="color_8290AF">#8290AF</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_aeaeae">#aeaeae</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_no_photo">#EEEEEE</color>
+    <color name="title_bg">#373B3E</color>
+    <color name="video_bg">#ededed</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <!--========================-->
+    <color name="praise_item_default">#333333</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="praise_item">#8290AF</color>
+
+    <color name="default_clickable_color">#cccccc</color>
+
+</resources>

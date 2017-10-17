@@ -1,0 +1,615 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:2:1-189:12
+	package
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.malinskiy:superrecyclerview:1.1.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.malinskiy\superrecyclerview\1.1.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikhaellopez:circularprogressbar:1.1.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.mikhaellopez\circularprogressbar\1.1.1\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.3.42] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.42\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.chrisbanes.photoview\library\1.2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.flyco.tablayout\FlycoTabLayout_Lib\2.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shell-software:fab:1.1.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.shell-software\fab\1.1.2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:viewmover:1.1.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.shell-software\viewmover\1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:uitools:1.1.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.shell-software\uitools\1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\in.srain.cube\ultra-ptr\1.0.11\AndroidManifest.xml:7:5-9:41
+MERGED from [com.classic.common:multiple-status-view:1.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.classic.common\multiple-status-view\1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [petClient:httplib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\httplib\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:23.2.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [petClient:ucrop:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\ucrop\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.commit451:PhotoView:1.2.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.commit451\PhotoView\1.2.4\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\io.reactivex.rxjava2\rxandroid\2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [com.gxz.pagerslidingtabstrip:library:1.3.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.gxz.pagerslidingtabstrip\library\1.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.github.clans:fab:1.6.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:11:5-66
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:13:5-67
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:12:5-81
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.CALL_PHONE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:14:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:14:5-79
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:18:5-76
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:16:5-76
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:19:5-75
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:18:5-75
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.READ_SETTINGS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:21:5-73
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.GET_TASKS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:22:5-68
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:22:5-68
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.CAMERA
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:27:5-65
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:27:22-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:30:5-81
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:35:5-85
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:28:5-85
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:35:22-82
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:43:5-71
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:21:5-71
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:43:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:45:5-66
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:25:5-66
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:45:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:47:5-68
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:23:5-68
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:47:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:50:5-80
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:24:5-80
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:50:22-77
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:51:5-84
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:51:22-81
+uses-permission#android.permission.READ_CONTACTS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:53:5-72
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:53:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:54:5-79
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:54:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:55:5-81
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:55:22-78
+application
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:60:5-187:19
+MERGED from [com.malinskiy:superrecyclerview:1.1.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.malinskiy\superrecyclerview\1.1.4\AndroidManifest.xml:12:5-20
+MERGED from [com.mikhaellopez:circularprogressbar:1.1.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.mikhaellopez\circularprogressbar\1.1.1\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.3.42] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.42\AndroidManifest.xml:12:5-20
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.flyco.tablayout\FlycoTabLayout_Lib\2.0.2\AndroidManifest.xml:11:5-14:19
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\in.srain.cube\ultra-ptr\1.0.11\AndroidManifest.xml:11:5-20
+MERGED from [com.classic.common:multiple-status-view:1.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.classic.common\multiple-status-view\1.2\AndroidManifest.xml:11:5-15:19
+MERGED from [petClient:httplib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\httplib\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:23.2.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:11:5-44:19
+MERGED from [petClient:ucrop:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\ucrop\unspecified\AndroidManifest.xml:11:5-14:19
+MERGED from [com.gxz.pagerslidingtabstrip:library:1.3.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.gxz.pagerslidingtabstrip\library\1.3.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.clans:fab:1.6.4] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:33:5-96:19
+MERGED from [com.android.support:support-v4:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:24:5-95:19
+	android:label
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:64:9-41
+	android:supportsRtl
+		ADDED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.2] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.flyco.tablayout\FlycoTabLayout_Lib\2.0.2\AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:61:9-35
+	android:icon
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:63:9-38
+	android:theme
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:65:9-40
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:62:9-56
+provider#android.support.v4.content.FileProvider
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:67:9-75:20
+	android:authorities
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:69:13-60
+		INJECTED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:71:13-47
+	android:exported
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:68:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:72:13-74:54
+	android:resource
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:74:17-51
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:73:17-67
+activity#com.song.petLeague.activity.ImagePagerActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:77:9-79:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:77:19-80
+meta-data#com.song.petLeague.MyGlideModule
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:81:9-83:43
+	android:value
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:83:13-40
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:82:13-60
+activity#com.song.petLeague.activity.SplashActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:86:9-91:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:86:19-76
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:87:13-90:29
+action#android.intent.action.MAIN
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:88:17-69
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:88:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:89:17-77
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:89:27-74
+activity#com.song.petLeague.activity.LoginActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:93:9-94:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:93:19-75
+activity#com.song.petLeague.activity.RegisterActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:96:9-97:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:96:19-78
+activity#com.song.petLeague.activity.RegisterPostActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:99:9-100:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:99:19-82
+activity#com.song.petLeague.MainActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:102:9-112:20
+	android:windowSoftInputMode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:103:13-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:102:19-65
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:104:13-111:29
+action#android.intent.action.VIEW
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:105:17-69
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:105:25-66
+category#android.intent.category.DEFAULT
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:106:17-76
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:106:27-73
+data
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:107:17-110:45
+	android:host
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:108:21-54
+	android:scheme
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:110:21-42
+	android:pathPrefix
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:109:21-55
+activity#com.song.petLeague.activity.EditCircleActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:114:9-115:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:114:19-80
+activity#com.song.petLeague.activity.NewsDetailActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:117:9-118:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:117:19-80
+activity#com.song.petLeague.activity.ShopDetailActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:120:9-121:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:120:19-80
+activity#com.song.petLeague.activity.PersonalDetailsActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:123:9-124:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:123:19-85
+activity#com.song.petLeague.activity.PersonalAttentionActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:126:9-128:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:126:19-87
+activity#com.song.petLeague.activity.PersonalFensActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:129:9-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:129:19-64
+activity#com.song.petLeague.activity.MessageBoardActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:131:9-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:131:19-64
+activity#com.song.petLeague.activity.EditMessageBoardActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:133:9-71
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:133:19-68
+activity#com.song.petLeague.activity.PersonalDocumentActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:135:9-71
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:135:19-68
+activity#com.song.petLeague.activity.PersonCircleActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:137:9-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:137:19-64
+activity#com.song.petLeague.activity.PersonalDocumentEditActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:139:9-75
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:139:19-72
+activity#com.song.petLeague.activity.chatActivity.ConversationActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:143:9-156:20
+	android:screenOrientation
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:144:13-49
+	android:launchMode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:145:13-43
+	android:windowSoftInputMode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:146:13-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:143:19-77
+activity#com.song.petLeague.activity.chatActivity.SubConversationListActivity
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:159:9-173:20
+	android:screenOrientation
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:162:13-49
+	android:launchMode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:161:13-44
+	android:windowSoftInputMode
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:163:13-67
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:160:13-78
+receiver#com.song.petLeague.receiver.NetStateReceiver
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:176:9-181:20
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:176:19-78
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:177:13-179:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:178:17-78
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:178:25-76
+meta-data#com.google.android.gms.version
+ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:183:9-185:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:185:13-66
+	android:name
+		ADDED from G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\src\main\AndroidManifest.xml:184:13-58
+activity#com.luck.picture.lib.ui.PictureAlbumDirectoryActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:15:9-19:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:18:13-49
+	android:configChanges
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:17:13-63
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:19:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:16:13-81
+activity#com.luck.picture.lib.ui.PictureImageGridActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:20:9-23:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:22:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:21:13-76
+activity#com.luck.picture.lib.ui.PicturePreviewActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:24:9-27:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:26:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:25:13-74
+activity#com.luck.picture.lib.ui.PictureVideoPlayActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:28:9-31:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:30:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:29:13-76
+activity#com.luck.picture.lib.ui.PictureExternalPreviewActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:32:9-35:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:34:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:33:13-82
+activity#com.yalantis.ucrop.ui.PictureMultiCuttingActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:36:9-39:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:38:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:39:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:37:13-77
+activity#com.yalantis.ucrop.ui.PictureSingeUCropActivity
+ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:40:9-43:51
+	android:screenOrientation
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:42:13-49
+	android:theme
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from [petClient:picture_library:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\picture_library\unspecified\AndroidManifest.xml:41:13-75
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:31:22-73
+activity#io.rong.imkit.plugin.location.AMapLocationActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:34:9-87
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:34:19-84
+activity#io.rong.imkit.plugin.location.AMapPreviewActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:35:9-86
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:35:19-83
+activity#io.rong.imkit.plugin.location.AMapRealTimeActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:36:9-87
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:36:19-84
+activity#io.rong.imkit.plugin.image.PictureSelectorActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:38:13-78
+activity#io.rong.imkit.plugin.image.PicturePreviewActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:41:13-77
+activity#io.rong.imkit.tools.RongWebviewActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:45:9-53:20
+	android:screenOrientation
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:46:13-67
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.webview
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:48:13-52:29
+action#io.rong.imkit.intent.action.webview
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:49:17-78
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:49:25-75
+activity#io.rong.imkit.widget.provider.TakingPicturesActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:56:13-63
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:55:13-80
+activity#io.rong.imkit.activity.PicturePagerActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:58:9-66:20
+	android:theme
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:60:13-71
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:59:13-71
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.picturepagerview
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:61:13-65:29
+action#io.rong.imkit.intent.action.picturepagerview
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:62:17-87
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:62:25-84
+activity#io.rong.imkit.mention.MemberMentionedActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:67:9-70:67
+	android:windowSoftInputMode
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:70:13-64
+	android:configChanges
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:68:13-73
+activity#io.rong.imkit.activity.FileManagerActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:71:9-79
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:71:19-76
+activity#io.rong.imkit.activity.FileListActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:72:9-76
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:72:19-73
+activity#io.rong.imkit.activity.FilePreviewActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:73:9-79:20
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:73:19-76
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.openfile
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:74:13-78:29
+action#io.rong.imkit.intent.action.openfile
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:75:17-79
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:75:25-76
+activity#io.rong.imkit.activity.CSLeaveMessageActivity
+ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:83:13-49
+	android:configChanges
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:82:13-63
+	android:name
+		ADDED from [petClient:IMKit:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMKit\unspecified\AndroidManifest.xml:81:13-73
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:27:9-29:45
+	android:value
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:29:13-42
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:28:13-46
+service#io.rong.imlib.ipc.RongService
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:31:9-34:38
+	android:process
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:32:13-57
+service#io.rong.imlib.ReConnectService
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:35:9-37:39
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:36:13-58
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:40:13-63
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:42:9-44:38
+	android:process
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:44:13-35
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:43:13-59
+service#io.rong.push.core.PushRegistrationService
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:50:9-53:19
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:51:13-69
+service#io.rong.push.core.MessageHandleService
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:56:9-59:19
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:57:13-66
+service#io.rong.push.PushService
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:62:9-66:19
+	android:process
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:65:13-43
+	android:exported
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:63:13-52
+receiver#io.rong.push.PushReceiver
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:69:9-89:20
+	android:process
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:71:13-43
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:70:13-53
+intent-filter#io.rong.push.intent.action.HEART_BEAT
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:73:13-75:29
+action#io.rong.push.intent.action.HEART_BEAT
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:74:17-80
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:74:25-77
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:81:13-83:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:82:25-76
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:84:13-88:29
+action#android.intent.action.USER_PRESENT
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:85:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:86:17-87
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:86:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:87:17-90
+	android:name
+		ADDED from [petClient:IMLib:unspecified] G:\androidProject\mineProject\pet17.5.20\pet\petClient\petClient\app\build\intermediates\exploded-aar\petClient\IMLib\unspecified\AndroidManifest.xml:87:25-87

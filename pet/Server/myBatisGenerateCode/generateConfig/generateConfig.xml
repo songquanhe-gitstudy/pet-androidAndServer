@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <classPathEntry    location="mysql-connector-java-5.1.22-bin.jar"/>
+    <context id="DB2Tables"    targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!--��ݿ����ӵ�ַ�˺�����-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/petleaguedb" userId="root" password="123456">
+        </jdbcConnection>
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!--���Model����λ��-->
+        <javaModelGenerator targetPackage="com.backend.domain" targetProject="myBatisGenerateCode/src">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--���ӳ���ļ����λ��-->
+        <sqlMapGenerator targetPackage="com.backend.mapper" targetProject="myBatisGenerateCode/src">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!--���Dao����λ��-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.backend.mapper" targetProject="myBatisGenerateCode/src">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!--��ɶ�Ӧ�?����-->
+		<table tableName="t_user" domainObjectName="UserItem" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+
+			
+			</context>
+</generatorConfiguration>

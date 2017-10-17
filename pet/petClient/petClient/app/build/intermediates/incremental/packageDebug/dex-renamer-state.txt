@@ -1,0 +1,7 @@
+#Sun Jun 04 21:00:53 CST 2017
+base.0=G\:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5593d07f27cf86eaf716f67229ba712bb1d378a0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=G\:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bb6c79b002b0fbfee0e038f62c6b3ad308c3f58e\\classes.dex
+base.1=G\:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bb6c79b002b0fbfee0e038f62c6b3ad308c3f58e
+file.0=G\:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5593d07f27cf86eaf716f67229ba712bb1d378a0\\classes.dex

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.UserItemMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.UserItem">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="u_name" jdbcType="VARCHAR" property="uName" />
+    <result column="u_pwd" jdbcType="VARCHAR" property="uPwd" />
+    <result column="u_head_url" jdbcType="VARCHAR" property="uHeadUrl" />
+    <result column="u_head_bg_url" jdbcType="VARCHAR" property="uHeadBgUrl" />
+    <result column="u_phone_number" jdbcType="VARCHAR" property="uPhoneNumber" />
+    <result column="u_sex" jdbcType="VARCHAR" property="uSex" />
+    <result column="u_age" jdbcType="VARCHAR" property="uAge" />
+    <result column="u_college" jdbcType="VARCHAR" property="uCollege" />
+    <result column="u_major" jdbcType="VARCHAR" property="uMajor" />
+    <result column="u_class" jdbcType="VARCHAR" property="uClass" />
+    <result column="u_student_number" jdbcType="VARCHAR" property="uStudentNumber" />
+    <result column="u_city" jdbcType="VARCHAR" property="uCity" />
+    <result column="u_birthday" jdbcType="VARCHAR" property="uBirthday" />
+    <result column="u_signature" jdbcType="VARCHAR" property="uSignature" />
+    <result column="u_constellation" jdbcType="VARCHAR" property="uConstellation" />
+    <result column="u_emotion" jdbcType="VARCHAR" property="uEmotion" />
+    <result column="u_usually_city" jdbcType="VARCHAR" property="uUsuallyCity" />
+    <result column="u_habbies" jdbcType="VARCHAR" property="uHabbies" />
+    <result column="u_like_something" jdbcType="VARCHAR" property="uLikeSomething" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, u_name, u_pwd, u_head_url, u_head_bg_url, u_phone_number, u_sex, u_age, u_college, 
+    u_major, u_class, u_student_number, u_city, u_birthday, u_signature, u_constellation, 
+    u_emotion, u_usually_city, u_habbies, u_like_something
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.UserItem">
+    insert into t_user (id, u_name, u_pwd, 
+      u_head_url, u_head_bg_url, u_phone_number, 
+      u_sex, u_age, u_college, 
+      u_major, u_class, u_student_number, 
+      u_city, u_birthday, u_signature, 
+      u_constellation, u_emotion, u_usually_city, 
+      u_habbies, u_like_something)
+    values (#{id,jdbcType=INTEGER}, #{uName,jdbcType=VARCHAR}, #{uPwd,jdbcType=VARCHAR}, 
+      #{uHeadUrl,jdbcType=VARCHAR}, #{uHeadBgUrl,jdbcType=VARCHAR}, #{uPhoneNumber,jdbcType=VARCHAR}, 
+      #{uSex,jdbcType=VARCHAR}, #{uAge,jdbcType=VARCHAR}, #{uCollege,jdbcType=VARCHAR}, 
+      #{uMajor,jdbcType=VARCHAR}, #{uClass,jdbcType=VARCHAR}, #{uStudentNumber,jdbcType=VARCHAR}, 
+      #{uCity,jdbcType=VARCHAR}, #{uBirthday,jdbcType=VARCHAR}, #{uSignature,jdbcType=VARCHAR}, 
+      #{uConstellation,jdbcType=VARCHAR}, #{uEmotion,jdbcType=VARCHAR}, #{uUsuallyCity,jdbcType=VARCHAR}, 
+      #{uHabbies,jdbcType=VARCHAR}, #{uLikeSomething,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.UserItem">
+    insert into t_user
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uName != null">
+        u_name,
+      </if>
+      <if test="uPwd != null">
+        u_pwd,
+      </if>
+      <if test="uHeadUrl != null">
+        u_head_url,
+      </if>
+      <if test="uHeadBgUrl != null">
+        u_head_bg_url,
+      </if>
+      <if test="uPhoneNumber != null">
+        u_phone_number,
+      </if>
+      <if test="uSex != null">
+        u_sex,
+      </if>
+      <if test="uAge != null">
+        u_age,
+      </if>
+      <if test="uCollege != null">
+        u_college,
+      </if>
+      <if test="uMajor != null">
+        u_major,
+      </if>
+      <if test="uClass != null">
+        u_class,
+      </if>
+      <if test="uStudentNumber != null">
+        u_student_number,
+      </if>
+      <if test="uCity != null">
+        u_city,
+      </if>
+      <if test="uBirthday != null">
+        u_birthday,
+      </if>
+      <if test="uSignature != null">
+        u_signature,
+      </if>
+      <if test="uConstellation != null">
+        u_constellation,
+      </if>
+      <if test="uEmotion != null">
+        u_emotion,
+      </if>
+      <if test="uUsuallyCity != null">
+        u_usually_city,
+      </if>
+      <if test="uHabbies != null">
+        u_habbies,
+      </if>
+      <if test="uLikeSomething != null">
+        u_like_something,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uName != null">
+        #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uPwd != null">
+        #{uPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="uHeadUrl != null">
+        #{uHeadUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="uHeadBgUrl != null">
+        #{uHeadBgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="uPhoneNumber != null">
+        #{uPhoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="uSex != null">
+        #{uSex,jdbcType=VARCHAR},
+      </if>
+      <if test="uAge != null">
+        #{uAge,jdbcType=VARCHAR},
+      </if>
+      <if test="uCollege != null">
+        #{uCollege,jdbcType=VARCHAR},
+      </if>
+      <if test="uMajor != null">
+        #{uMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="uClass != null">
+        #{uClass,jdbcType=VARCHAR},
+      </if>
+      <if test="uStudentNumber != null">
+        #{uStudentNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="uCity != null">
+        #{uCity,jdbcType=VARCHAR},
+      </if>
+      <if test="uBirthday != null">
+        #{uBirthday,jdbcType=VARCHAR},
+      </if>
+      <if test="uSignature != null">
+        #{uSignature,jdbcType=VARCHAR},
+      </if>
+      <if test="uConstellation != null">
+        #{uConstellation,jdbcType=VARCHAR},
+      </if>
+      <if test="uEmotion != null">
+        #{uEmotion,jdbcType=VARCHAR},
+      </if>
+      <if test="uUsuallyCity != null">
+        #{uUsuallyCity,jdbcType=VARCHAR},
+      </if>
+      <if test="uHabbies != null">
+        #{uHabbies,jdbcType=VARCHAR},
+      </if>
+      <if test="uLikeSomething != null">
+        #{uLikeSomething,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.UserItem">
+    update t_user
+    <set>
+      <if test="uName != null">
+        u_name = #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uPwd != null">
+        u_pwd = #{uPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="uHeadUrl != null">
+        u_head_url = #{uHeadUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="uHeadBgUrl != null">
+        u_head_bg_url = #{uHeadBgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="uPhoneNumber != null">
+        u_phone_number = #{uPhoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="uSex != null">
+        u_sex = #{uSex,jdbcType=VARCHAR},
+      </if>
+      <if test="uAge != null">
+        u_age = #{uAge,jdbcType=VARCHAR},
+      </if>
+      <if test="uCollege != null">
+        u_college = #{uCollege,jdbcType=VARCHAR},
+      </if>
+      <if test="uMajor != null">
+        u_major = #{uMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="uClass != null">
+        u_class = #{uClass,jdbcType=VARCHAR},
+      </if>
+      <if test="uStudentNumber != null">
+        u_student_number = #{uStudentNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="uCity != null">
+        u_city = #{uCity,jdbcType=VARCHAR},
+      </if>
+      <if test="uBirthday != null">
+        u_birthday = #{uBirthday,jdbcType=VARCHAR},
+      </if>
+      <if test="uSignature != null">
+        u_signature = #{uSignature,jdbcType=VARCHAR},
+      </if>
+      <if test="uConstellation != null">
+        u_constellation = #{uConstellation,jdbcType=VARCHAR},
+      </if>
+      <if test="uEmotion != null">
+        u_emotion = #{uEmotion,jdbcType=VARCHAR},
+      </if>
+      <if test="uUsuallyCity != null">
+        u_usually_city = #{uUsuallyCity,jdbcType=VARCHAR},
+      </if>
+      <if test="uHabbies != null">
+        u_habbies = #{uHabbies,jdbcType=VARCHAR},
+      </if>
+      <if test="uLikeSomething != null">
+        u_like_something = #{uLikeSomething,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.UserItem">
+    update t_user
+    set u_name = #{uName,jdbcType=VARCHAR},
+      u_pwd = #{uPwd,jdbcType=VARCHAR},
+      u_head_url = #{uHeadUrl,jdbcType=VARCHAR},
+      u_head_bg_url = #{uHeadBgUrl,jdbcType=VARCHAR},
+      u_phone_number = #{uPhoneNumber,jdbcType=VARCHAR},
+      u_sex = #{uSex,jdbcType=VARCHAR},
+      u_age = #{uAge,jdbcType=VARCHAR},
+      u_college = #{uCollege,jdbcType=VARCHAR},
+      u_major = #{uMajor,jdbcType=VARCHAR},
+      u_class = #{uClass,jdbcType=VARCHAR},
+      u_student_number = #{uStudentNumber,jdbcType=VARCHAR},
+      u_city = #{uCity,jdbcType=VARCHAR},
+      u_birthday = #{uBirthday,jdbcType=VARCHAR},
+      u_signature = #{uSignature,jdbcType=VARCHAR},
+      u_constellation = #{uConstellation,jdbcType=VARCHAR},
+      u_emotion = #{uEmotion,jdbcType=VARCHAR},
+      u_usually_city = #{uUsuallyCity,jdbcType=VARCHAR},
+      u_habbies = #{uHabbies,jdbcType=VARCHAR},
+      u_like_something = #{uLikeSomething,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

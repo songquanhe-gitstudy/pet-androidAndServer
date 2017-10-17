@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\xml\\rc_file_path.xml"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_ll_style"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_board_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_adapter_item_bg"
+        android:layout_gravity="center"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="15dip"
+        android:text="回复"
+        android:textSize="16sp"
+        android:textColor="@color/color_232323" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/basic_skin_icon_dot_gray"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_board_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_adapter_item_bg"
+        android:layout_gravity="center"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="15dip"
+        android:text="删除"
+        android:textSize="16sp"
+        android:textColor="@color/color_232323"/>
+
+</LinearLayout>

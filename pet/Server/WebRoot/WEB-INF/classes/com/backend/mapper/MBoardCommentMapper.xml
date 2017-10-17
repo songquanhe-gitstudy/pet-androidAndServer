@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.MBoardCommentMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.MBoardComment">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="u_id" jdbcType="INTEGER" property="uId" />
+    <result column="m_id" jdbcType="INTEGER" property="mId" />
+    <result column="mb_content" jdbcType="VARCHAR" property="mbContent" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, u_id, m_id, mb_content
+  </sql>
+  
+  <select id="getTotalcommentByMid" resultMap="BaseResultMap">
+  	select
+  	<include refid="Base_Column_List"/> 
+  	from t_mb_comment
+  	where m_id = #{mid, jdbcType=INTEGER}
+  	
+  </select>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_mb_comment
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_mb_comment
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.MBoardComment">
+    insert into t_mb_comment (id, u_id, m_id, 
+      mb_content)
+    values (#{id,jdbcType=INTEGER}, #{uId,jdbcType=INTEGER}, #{mId,jdbcType=INTEGER}, 
+      #{mbContent,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.MBoardComment">
+    insert into t_mb_comment
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uId != null">
+        u_id,
+      </if>
+      <if test="mId != null">
+        m_id,
+      </if>
+      <if test="mbContent != null">
+        mb_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="mId != null">
+        #{mId,jdbcType=INTEGER},
+      </if>
+      <if test="mbContent != null">
+        #{mbContent,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.MBoardComment">
+    update t_mb_comment
+    <set>
+      <if test="uId != null">
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="mId != null">
+        m_id = #{mId,jdbcType=INTEGER},
+      </if>
+      <if test="mbContent != null">
+        mb_content = #{mbContent,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.MBoardComment">
+    update t_mb_comment
+    set u_id = #{uId,jdbcType=INTEGER},
+      m_id = #{mId,jdbcType=INTEGER},
+      mb_content = #{mbContent,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

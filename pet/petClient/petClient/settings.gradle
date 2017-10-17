@@ -1,0 +1,1 @@
+include ':app', ':httplib', ':ucrop', ':picture_library', ':IMLib', ':IMKit'

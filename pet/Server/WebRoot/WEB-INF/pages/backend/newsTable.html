@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+	<script src="${s.base}/res/backend/js/jquery.js"></script>
+	<script src="${s.base}/res/backend/js/pintuer.js"></script>
+	<script src="${s.base}/res/backend/js/layer/layer.js"></script>
+    <script src="${s.base}/res/backend/js/layui/layui.js"></script>
+	<link rel="shortcut icon" href="${s.base}/res/backend/image/sfavicon.ico">
+    <link rel="Bookmark" href="${s.base}/res/backend/images/favicon.ico">
+	<link rel="stylesheet" href="${s.base}/res/backend/css/pintuer.css">
+	<link rel="stylesheet" href="${s.base}/res/backend/css/admin.css">
+	<link href="${s.base}/res/backend/js/layui/css/layui.css" type="text/css" rel="stylesheet"/>
+    <title></title>
+
+</head>
+<script type="text/javascript">
+	function del(key){
+		if(layer.confirm('您确定要删除吗？', {
+					btn: ['确认','取消'] //按钮
+				}, function(){
+					window.location.href='${s.base}/News/delete.html?msgid='+key
+				}, function(){
+				}));
+	}
+	</script>
+<body onload="firstOnload(${type})">
+
+<div class="panel admin-panel">
+            <script>
+				layui.use([ 'form','laydate'], function(){		
+							var form = layui.form()
+							,laydate = layui.laydate;
+				});
+            </script>
+            <script type="text/javascript">
+                  var state1="";
+                  
+                  function firstOnload(typeFirst){
+                    
+                  	type = typeFirst;
+        
+			            if(type==0){
+			                document.getElementById("bewrite").innerHTML = "新闻类型一";
+			            }else if(state==1){
+			                document.getElementById("bewrite").innerHTML = "新闻类型二";
+			            }
+				}
+
+                  setInterval('setTimeChange()',500);
+	                function setTimeChange(){     
+	                
+	                	var stateCheck = $('#stateId option:selected').val();
+
+	                	if(state1==stateCheck){
+	                             
+	                	}else if(stateCheck==""){
+	                		
+	                	}else{
+	                		window.location.href="${s.base}/News/newsEdit.html?type="+stateCheck;
+	                	}
+
+              }
+            </script>
+			
+	<form class="layui-form layui-form-pane" action="" method="">
+		<div class="panel-head"><strong class="icon-reorder">表单编辑</strong></div>
+
+		<div style="width:77%;margin-left:50px;margin-top:20px;">
+		<div class="layui-form-item">
+							<label class="layui-form-label" style='width:12%'>类型</label>
+							<div class="layui-input-block">
+								<select name="" lay-verify="required" id="stateId" onchange="stateChange()">
+									<option value=""></option>
+									<option value="0">类型一</option>
+									<option value="1">类型二</option>
+								</select>
+							</div>
+				</div>
+
+				<br>
+				<br>
+			<blockquote class="layui-elem-quote" id="bewrite">新闻类型二</blockquote>							
+				 <table border="1" class="layui-table" style="text-align:center">
+				  <tr>
+					<th style="text-align: center;width:10%"">id</th>
+					<th style="text-align: center;width:10%"">标题</th>
+					<th style="text-align: center;width:15%">文章地址</th>
+					<th style="text-align: center;width:20%"">内容</th>
+					<th style="text-align: center;width:10%">图片地址</th>
+					<th style="text-align: center;width:15%">日期</th>
+					<th style="text-align: center;width:20%">操作</th>
+				  </tr>	
+				  <#if items??>
+				  <#list items as row>
+				  <tr>
+				    <form action="${s.base}/News/update.html" method="post">
+				    
+				  	<td><input type="button" style="width:100%;height:100%;border:none;text-align:center;background-color:white;" value="${row.msgid!}" readonly = "true"></td>
+				  	<td><input type="text" name="title" style="width:100%;height:100%;border:none;text-align:center;background-color:white;" value="${row.title!}" readonly = "true"></td>
+				  	<td><input type="text" name="arcurl" style="width:100%;height:100%;border:none;text-align:center;background-color:white;" value="${row.arcurl!}" readonly = "true"></td>
+				  	<td><input type="text" name="text" style="width:100%;height:100%;border:none;text-align:center;background-color:white;" value="${row.text!}" readonly = "true"></td>
+				  	<td><input type="text" name="litpic" style="width:100%;height:100%;border:none;text-align:center;background-color:white;" value="${row.litpic!}" readonly = "true"><input type="hidden" value="${row.msgid!}" name="msgid"></td>
+				  	<td>${row.senddate?datetime}</td>
+				  	<td>
+					  	<button  type="button" class="layui-btn layui-btn-small changeName">编辑</button>
+					  	<button onclick="return del('${row.msgid!}')" type="button" class="layui-btn layui-btn-danger layui-btn-small" >删除</button>
+					  	<button onclick="" type="submit" class="layui-btn layui-btn-small sure" style="display:none;">提交</button>
+				  	</td>
+				  	
+				  	</form>
+				  </tr>		
+				  </#list>
+				  <#else>				  
+				  
+				  </#if>
+	              <tr id="addButton" onclick="addInput()">				
+					<td colspan="2"><i class="layui-icon" style="font-size: 22px; ">&#xe608;</i>添加</td>
+	              </tr>  
+	              <tr id="add" style="display:none">
+	              
+				    <form action="${s.base}/News/add.html" method="post">
+					<td><input type="hidden" style="border:none;width:70%;height:90%;"></td>
+					<td><input name="title" type="text" style="border:none;width:70%;height:90%;"></td> 
+					<td><input name="arcurl" type="text" style="border:none;width:70%;height:90%;"></td> 
+					<td><input name="text" type="text" style="border:none;width:70%;height:90%;"></td> 
+					<td><input name="litpic" type="text" style="border:none;width:70%;height:90%;"></td> 
+					<td><input type="hidden" value="不可编辑" style="border:none;width:70%;height:90%;"></td> 
+					<td><button type="submit" class="layui-btn layui-btn-small">提交</button></td>
+					</form>
+					
+	              </tr>
+				</table>
+	</form>
+	<script type="text/javascript">
+            function addInput(){
+            	$("#add").show();
+            	$("#addButton").hide();
+            }   
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+			   
+				$(this).parent().prevAll().children().attr("readonly",false);
+				$(this).next().next().show();
+			});
+		});
+	</script>
+</div>
+<div style="height:1000px"></div>
+</body>
+</html>

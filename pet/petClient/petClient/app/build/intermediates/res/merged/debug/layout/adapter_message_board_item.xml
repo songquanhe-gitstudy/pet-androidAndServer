@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/shop_onclick"
+    >
+    <include layout="@layout/layout_sticky_header_view"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_message_board"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        />
+        <TextView
+            android:id="@+id/tv_board_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="留言内容"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_diriver"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:id="@+id/boardCommentBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="10dip"
+        android:paddingLeft="12dip"
+        android:paddingTop="5dip"
+        android:paddingRight="12dip"
+        android:paddingBottom="8dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+
+        <com.song.petLeague.widgets.boardCommentListView
+            android:id="@+id/boardCommentList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            app:item_color="@color/praise_item"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

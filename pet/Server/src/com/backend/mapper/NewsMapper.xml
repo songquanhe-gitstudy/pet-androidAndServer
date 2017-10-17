@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.NewsMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.News">
+    <id column="id" jdbcType="INTEGER" property="nId" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="n_title" jdbcType="VARCHAR" property="nTitle" />
+    <result column="n_author" jdbcType="VARCHAR" property="nAuthor" />
+    <result column="n_content" jdbcType="VARCHAR" property="nContent" />
+    <result column="n_pic_url" jdbcType="VARCHAR" property="nPicUrl" />
+    <result column="n_date" jdbcType="TIMESTAMP" property="nDate" />
+    <result column="n_praise_num" jdbcType="INTEGER" property="nPraiseNum" />
+    <result column="n_comment_num" jdbcType="INTEGER" property="nCommentNum" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, type, n_title, n_author, n_content, n_pic_url, n_date, n_praise_num, n_comment_num
+  </sql>
+  
+  <select id="getSpecifyTypeNews" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_news
+    where type = #{param1,jdbcType=INTEGER}
+    order by id desc
+    limit #{param2.start}, #{param2.pageSize}
+  </select>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_news
+    where id = #{nId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_news
+    where id = #{nId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.News">
+    insert into t_news (id, type, n_title, 
+      n_author, n_content, n_pic_url, 
+      n_date, n_praise_num, n_comment_num
+      )
+    values (#{nId,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, #{nTitle,jdbcType=VARCHAR}, 
+      #{nAuthor,jdbcType=VARCHAR}, #{nContent,jdbcType=VARCHAR}, #{nPicUrl,jdbcType=VARCHAR}, 
+      #{nDate,jdbcType=TIMESTAMP}, #{nPraiseNum,jdbcType=INTEGER}, #{nCommentNum,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.News">
+    insert into t_news
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="nId != null">
+        id,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="nTitle != null">
+        n_title,
+      </if>
+      <if test="nAuthor != null">
+        n_author,
+      </if>
+      <if test="nContent != null">
+        n_content,
+      </if>
+      <if test="nPicUrl != null">
+        n_pic_url,
+      </if>
+      <if test="nDate != null">
+        n_date,
+      </if>
+      <if test="nPraiseNum != null">
+        n_praise_num,
+      </if>
+      <if test="nCommentNum != null">
+        n_comment_num,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="nId != null">
+        #{nId,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+      <if test="nTitle != null">
+        #{nTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="nAuthor != null">
+        #{nAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="nContent != null">
+        #{nContent,jdbcType=VARCHAR},
+      </if>
+      <if test="nPicUrl != null">
+        #{nPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="nDate != null">
+        #{nDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="nPraiseNum != null">
+        #{nPraiseNum,jdbcType=INTEGER},
+      </if>
+      <if test="nCommentNum != null">
+        #{nCommentNum,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.News">
+    update t_news
+    <set>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+      <if test="nTitle != null">
+        n_title = #{nTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="nAuthor != null">
+        n_author = #{nAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="nContent != null">
+        n_content = #{nContent,jdbcType=VARCHAR},
+      </if>
+      <if test="nPicUrl != null">
+        n_pic_url = #{nPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="nDate != null">
+        n_date = #{nDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="nPraiseNum != null">
+        n_praise_num = #{nPraiseNum,jdbcType=INTEGER},
+      </if>
+      <if test="nCommentNum != null">
+        n_comment_num = #{nCommentNum,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{nId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.News">
+    update t_news
+    set type = #{type,jdbcType=INTEGER},
+      n_title = #{nTitle,jdbcType=VARCHAR},
+      n_author = #{nAuthor,jdbcType=VARCHAR},
+      n_content = #{nContent,jdbcType=VARCHAR},
+      n_pic_url = #{nPicUrl,jdbcType=VARCHAR},
+      n_date = #{nDate,jdbcType=TIMESTAMP},
+      n_praise_num = #{nPraiseNum,jdbcType=INTEGER},
+      n_comment_num = #{nCommentNum,jdbcType=INTEGER}
+    where id = #{nId,jdbcType=INTEGER}
+  </update>
+</mapper>

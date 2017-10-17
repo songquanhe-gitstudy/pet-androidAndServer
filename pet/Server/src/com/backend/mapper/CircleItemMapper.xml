@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.CircleItemMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.CircleItem">
+    <id column="id" jdbcType="INTEGER" property="cId" />
+    <result column="u_id" jdbcType="INTEGER" property="uId" />
+    <result column="c_content" jdbcType="VARCHAR" property="cContent" />
+    <result column="c_date" jdbcType="VARCHAR" property="cDate" />
+    <result column="c_type" jdbcType="VARCHAR" property="cType" />
+    <result column="c_link_img" jdbcType="VARCHAR" property="cLinkImg" />
+    <result column="c_link_title" jdbcType="VARCHAR" property="cLinkTitle" />
+    <result column="c_video_url" jdbcType="VARCHAR" property="cVideoUrl" />
+    <result column="c_video_img_url" jdbcType="VARCHAR" property="cVideoImgUrl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+   id, u_id, c_content, c_date, c_type, c_link_img, c_link_title, c_video_url, c_video_img_url
+  </sql>
+  
+  <select id="getSpecityTotalsByuId"  resultType="java.lang.Integer">
+    select count(id) from t_circle
+    where 
+    u_id = #{frientId,jdbcType=INTEGER}
+  </select>
+  
+  <select id="getAllItemsByuId" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    where u_id = #{uId, jdbcType=INTEGER}
+    order by id desc
+  </select>
+  
+  <select id="getSpecifyTypeByuId" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    where u_id = #{param2, jdbcType=INTEGER}
+    order by id desc
+    limit #{param3.start}, #{param3.pageSize}
+  </select>
+  
+  <select id="getSpecifyTypeByfriIds" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    where u_id in ${param2}
+    order by id desc
+    limit #{param3.start}, #{param3.pageSize}
+  </select>
+  
+  <select id="getSpecifyByuIdAndContent" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    where u_id = #{param1,jdbcType=INTEGER}
+     And c_content = #{param2,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="getSpecifyTypeCircles" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    order by id desc
+    limit #{param2.start}, #{param2.pageSize}
+  </select>
+
+  <delete id="deleteByCircleId" parameterType="java.lang.String">
+    delete from t_circle
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+   
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle
+    where id = #{cId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_circle
+    where id = #{cId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.CircleItem">
+    insert into t_circle (id, u_id, c_content, 
+      c_date, c_type, c_link_img, 
+      c_link_title, c_video_url, c_video_img_url
+      )
+    values (#{cId,jdbcType=INTEGER}, #{uId,jdbcType=INTEGER}, #{cContent,jdbcType=VARCHAR}, 
+      #{cDate,jdbcType=VARCHAR}, #{cType,jdbcType=VARCHAR}, #{cLinkImg,jdbcType=VARCHAR}, 
+      #{cLinkTitle,jdbcType=VARCHAR}, #{cVideoUrl,jdbcType=VARCHAR}, #{cVideoImgUrl,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.CircleItem">
+    insert into t_circle
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        id,
+      </if>
+      <if test="uId != null">
+        u_id,
+      </if>
+      <if test="cContent != null">
+        c_content,
+      </if>
+      <if test="cDate != null">
+        c_date,
+      </if>
+      <if test="cType != null">
+        c_type,
+      </if>
+      <if test="cLinkImg != null">
+        c_link_img,
+      </if>
+      <if test="cLinkTitle != null">
+        c_link_title,
+      </if>
+      <if test="cVideoUrl != null">
+        c_video_url,
+      </if>
+      <if test="cVideoImgUrl != null">
+        c_video_img_url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="cContent != null">
+        #{cContent,jdbcType=VARCHAR},
+      </if>
+      <if test="cDate != null">
+        #{cDate,jdbcType=VARCHAR},
+      </if>
+      <if test="cType != null">
+        #{cType,jdbcType=VARCHAR},
+      </if>
+      <if test="cLinkImg != null">
+        #{cLinkImg,jdbcType=VARCHAR},
+      </if>
+      <if test="cLinkTitle != null">
+        #{cLinkTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="cVideoUrl != null">
+        #{cVideoUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cVideoImgUrl != null">
+        #{cVideoImgUrl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.CircleItem">
+    update t_circle
+    <set>
+      <if test="uId != null">
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+      <if test="cContent != null">
+        c_content = #{cContent,jdbcType=VARCHAR},
+      </if>
+      <if test="cDate != null">
+        c_date = #{cDate,jdbcType=VARCHAR},
+      </if>
+      <if test="cType != null">
+        c_type = #{cType,jdbcType=VARCHAR},
+      </if>
+      <if test="cLinkImg != null">
+        c_link_img = #{cLinkImg,jdbcType=VARCHAR},
+      </if>
+      <if test="cLinkTitle != null">
+        c_link_title = #{cLinkTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="cVideoUrl != null">
+        c_video_url = #{cVideoUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cVideoImgUrl != null">
+        c_video_img_url = #{cVideoImgUrl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{cId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.CircleItem">
+    update t_circle
+    set u_id = #{uId,jdbcType=INTEGER},
+      c_content = #{cContent,jdbcType=VARCHAR},
+      c_date = #{cDate,jdbcType=VARCHAR},
+      c_type = #{cType,jdbcType=VARCHAR},
+      c_link_img = #{cLinkImg,jdbcType=VARCHAR},
+      c_link_title = #{cLinkTitle,jdbcType=VARCHAR},
+      c_video_url = #{cVideoUrl,jdbcType=VARCHAR},
+      c_video_img_url = #{cVideoImgUrl,jdbcType=VARCHAR}
+    where id = #{cId,jdbcType=INTEGER}
+  </update>
+</mapper>

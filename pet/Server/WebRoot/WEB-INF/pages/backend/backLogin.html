@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>登录</title>  
+    <link rel="shortcut icon" href="${s.base}/res/backend/images/favicon.ico">
+    <link rel="Bookmark" href="${s.base}/res/backend/images/favicon.ico">
+    <link rel="stylesheet" href="${s.base}/res/backend/css/pintuer.css">
+    <link rel="stylesheet" href="${s.base}/res/backend/css/admin.css">
+    <link href="${s.base}/res/backend/js/layui/css/layui.css" type="text/css" rel="stylesheet"/>
+    <script src="${s.base}/res/backend/js/jquery.js"></script>
+    <script src="${s.base}/res/backend/js/layer/layer.js"></script>
+    <script src="${s.base}/res/backend/js/layui/layui.js"></script>
+    <script src="${s.base}/res/backend/js/jquery.form.js"></script>
+</head>
+<script type="text/javascript">
+
+
+  $(function(){
+     $('#test').on("submit",function() {
+        $(this).ajaxSubmit(
+            {	
+                beforeSubmit: function(arr,$form){
+                },
+                //提交成功后的回调函数
+                success: function(data,status){  
+                    if(data=="failed"){  
+                        layer.alert('用户名或密码错误', {
+                            icon: 2,
+                            skin: 'layer-ext-moon'
+                        });
+                        document.getElementById("accountName").value="";
+                        document.getElementById("accountPassword").value="";
+                       /*  window.open("${s.base}/login/initLogin.html","_self"); */
+                    }
+                    if(data == "success") {
+                    document.getElementById("test").action="${s.base}/Login/doLogin.html"
+                    document.getElementById("test").submit();
+                    } 
+                }              
+            }
+        );
+        return false; //阻止表单默认提交
+    });
+});	
+    </script>
+<body>
+<div class="bg"></div>
+<div class="container">
+    <div class="line bouncein">
+        <div class="xs6 xm4 xs3-move xm4-move">
+            <div style="height:90px;"></div>      
+            <div class="media media-y margin-big-bottom">           
+            </div>   
+            <form action="${s.base}/Login/testlogin.html" method="post" id = "test">
+            <div class="panel loginbox">
+                <div class="text-center margin-big padding-big-top"><h1 style="margin-top:40px;position:relative;"><strong>宠物帮APP后台管理</strong><img src="${s.base}/res/backend/images/favicon.ico" height="50" style="position:absolute;top:-40px;left:155px;width:38px;height:38px;"/></h1></div>
+                <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
+                    <div class="form-group">
+                        <div class="field field-icon-right">
+                            <input type="text" id = "accountName" class="input input-big" name="accountName" placeholder="登录账号" data-validate="required:请填写账号" />
+                            <span class="icon icon-user margin-small"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="field field-icon-right">
+                            <input type="password" id="accountPassword" class="input input-big" name="accountPassword" placeholder="登录密码" data-validate="required:请填写密码" />
+                            <span class="icon icon-key margin-small"></span>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding:30px;"><input type="submit" id ="btn" class="button button-block bg-main text-big input-big" value="登录" onclick="formSubmit()"></div>
+            </div>
+            </form>          
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

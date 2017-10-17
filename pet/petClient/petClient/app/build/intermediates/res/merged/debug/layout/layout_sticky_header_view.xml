@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_stivcky_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    >
+    <ImageView
+        android:id="@+id/iv_head_suspend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/im_pub_no_image"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:id="@+id/tv_name_suspend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        />
+    <ImageView
+        android:id="@+id/iv_sex_suspend"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/nv"
+        />
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/tv_time_suspend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:textSize="14sp"
+            android:text="2017-4-7"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_operation_suspend"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/arrows_down"
+        />
+</RelativeLayout>

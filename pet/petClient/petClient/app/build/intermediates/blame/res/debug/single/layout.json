@@ -1,0 +1,990 @@
+[
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pic_item_popupwindows.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\pic_item_popupwindows.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mainfirst.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_mainfirst.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_mention_members.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_mention_members.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_cirlce.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_edit_cirlce.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_inf.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_public_service_inf.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_warning.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_alert_warning.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_extension_bar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_extension_bar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image_cycle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\view_image_cycle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_progress.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_rich_content_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_webview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_detail_webview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_popup_options_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_dialog_popup_options_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_ucrop_activity_photobox.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_ucrop_activity_photobox.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_news_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\listview_news_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bottom.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_bottom.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_item_single_choice.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_item_single_choice.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rong.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_rong.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.classic.common\\multiple-status-view\\1.2\\res\\layout\\loading_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_message_board.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\dialog_message_board.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_header.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_header.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_document.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_personal_document.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_magic_text.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_magic_text.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_verticalscroll.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.4\\res\\layout\\layout_recyclerview_verticalscroll.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_original.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_original.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_editview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_editview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_preview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_preview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_conversation_notification_container.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_location_preview_activity.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_location_preview_activity.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_discussion_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_vo_popup.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_wi_vo_popup.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoticon_tab_container.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_emoticon_tab_container.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_root_menu_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_root_menu_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.4\\res\\layout\\layout_progress.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_album.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_activity_album.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_image_grid.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_activity_image_grid.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewstub_imgbody.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\viewstub_imgbody.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_catalog_listview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_catalog_listview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_pic_popup_window.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_pic_popup_window.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_information_notification_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_information_notification_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\social_sns_popupwindow.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\social_sns_popupwindow.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewstub_videobody.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\viewstub_videobody.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\error_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.classic.common\\multiple-status-view\\1.2\\res\\layout\\error_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_commond.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_commond.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_message_board.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_edit_message_board.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_voice_input.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_voice_input.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_upload.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_upload.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_app_service_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_app_service_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_document_edit.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_document_edit.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_download.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_file_download.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_messagelist.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_messagelist.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_sub_menu_container.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_sub_menu_container.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_item_camera.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_item_camera.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_file_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoji_grid_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_emoji_grid_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_photo.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_photo.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_webview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_webview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_human_evaluation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_alert_human_evaluation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_dialog_alter.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_dialog_alter.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversation_member_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_conversation_member_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_location_real_time_activity.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_location_real_time_activity.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cube_ptr_classic_default_header.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\in.srain.cube\\ultra-ptr\\1.0.11\\res\\layout\\cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_ucrop_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_ucrop_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_no_network_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\custom_no_network_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_file_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_file_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_layout_list_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\test_layout_list_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person_circle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_person_circle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_plugin_location_activity.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_plugin_location_activity.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_loading_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\custom_loading_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_staple_snack.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\shop_staple_snack.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imagepager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_imagepager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_post.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_register_post.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_menu_container.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_menu_container.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_message_board_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\adapter_message_board_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_footer.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\picker_footer.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_single_choice_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_single_choice_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_post_image.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_post_image.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_horizontalscroll.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.4\\res\\layout\\layout_recyclerview_horizontalscroll.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_indicator.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_indicator.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_more_progress.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\view_more_progress.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_comment.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\dialog_comment.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shop.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_shop.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_grid_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_grid_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoji_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_emoji_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\banner_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_widget_toolbar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_widget_toolbar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cube_ptr_simple_loading.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\in.srain.cube\\ultra-ptr\\1.0.11\\res\\layout\\cube_ptr_simple_loading.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_lowhurdle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_lowhurdle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_external_preview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_activity_external_preview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoticon_tab_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_emoticon_tab_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gv_filter_image.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\gv_filter_image.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_video.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_video.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_text_message_evaluate.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_text_message_evaluate.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_input_pager_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_input_pager_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_network_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.classic.common\\multiple-status-view\\1.2\\res\\layout\\no_network_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empty_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.classic.common\\multiple-status-view\\1.2\\res\\layout\\empty_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\board_add_deit.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\board_add_deit.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_fragment_image_preview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_fragment_image_preview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_layout_toast.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\view_layout_toast.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress_recyclerview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.4\\res\\layout\\layout_progress_recyclerview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_hot_recommend.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\shop_hot_recommend.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_manager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_news_manager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_notification_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_discussion_notification_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_album_folder_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_album_folder_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_voice_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_voice_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_input_edit_text.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_input_edit_text.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversationlist.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_conversationlist.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_circle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\head_circle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_alert_dialog.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_alert_dialog.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_popup_prompt_warning.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_dialog_popup_prompt_warning.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab_bottom.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_albums.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_albums.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_plugin_pager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_plugin_pager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_image_preview.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_activity_image_preview.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_content.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_content.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_image_grid_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_image_grid_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pager_image.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\item_pager_image.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_sticky_header_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\layout_sticky_header_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_multi_cutting.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_activity_multi_cutting.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_share_location_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_share_location_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_block_popup.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_wi_block_popup.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_popup_options.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_dialog_popup_options.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_evaluate.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_evaluate.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_top.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab_top.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_edit.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_edit.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_other_circle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\head_other_circle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_popup_prompt.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_dialog_popup_prompt.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_right.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab_right.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_manager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_file_manager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_camera.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_camera.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_input_menu.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_icon_rt_location_marker.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_icon_rt_location_marker.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_left.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab_left.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_comment.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_toies.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\shop_toies.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_messageboard_iv.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\head_messageboard_iv.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_header.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\picker_header.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_gf_adapter_edit_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\ucrop\\unspecified\\res\\layout\\picture_gf_adapter_edit_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_rich_content_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_rich_content_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_refresh_list_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_refresh_list_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_plugin_grid_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_plugin_grid_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fragment_base_setting.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fragment_base_setting.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_image.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_image.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_per_atten_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\adapter_per_atten_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_group_information_notification_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_robot_evaluation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_alert_robot_evaluation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_notice.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_wi_notice.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_search.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_search.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menus.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_public_service_input_menus.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewstub_urlbody.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\viewstub_urlbody.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_emoji_pager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_emoji_pager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_location_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_error_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\custom_error_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_base_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_base_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_circle.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_circle.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_health_care.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\shop_health_care.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_base_activity_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_base_activity_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picture_activity_video_play.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\picture_library\\unspecified\\res\\layout\\picture_activity_video_play.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picprev_activity.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picprev_activity.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_segment.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.0.2\\res\\layout\\layout_tab_segment.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_health.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_health.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_plugin_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_plugin_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_sub_menu_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_title_bar.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\shop_title_bar.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_circle_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\adapter_circle_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_grid_camera.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_grid_camera.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_file_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_file_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_tips.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\view_tips.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation_member.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_conversation_member.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_camera.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_camera.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_board.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_message_board.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_lowheader.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_lowheader.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_sub_list.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_public_service_sub_list.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_attention.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_personal_attention.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_text_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_text_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mine_fragment_attrs.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\mine_fragment_attrs.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_wait_pop.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\login_wait_pop.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_picture_pager.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_ac_picture_pager.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_me.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\fragment_me.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_empty_view.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\custom_empty_view.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_search.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_fr_public_service_search.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_mention_list_item.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_mention_list_item.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_image_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_image_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_system_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_system_conversation.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_activity.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_picsel_activity.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_preview_fragment.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_preview_fragment.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_information.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_personal_information.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_details.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\src\\main\\res\\layout\\activity_personal_details.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_notification_realtime_location.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_notification_realtime_location.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_more_progress.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.4\\res\\layout\\layout_more_progress.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_file_list_adapter.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_wi_file_list_adapter.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_block.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_wi_block.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_leave_message.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_cs_leave_message.xml"
+    },
+    {
+        "merged": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_group_conversation.xml",
+        "source": "G:\\androidProject\\mineProject\\pet17.5.20\\pet\\petClient\\petClient\\app\\build\\intermediates\\exploded-aar\\petClient\\IMKit\\unspecified\\res\\layout\\rc_item_group_conversation.xml"
+    }
+]

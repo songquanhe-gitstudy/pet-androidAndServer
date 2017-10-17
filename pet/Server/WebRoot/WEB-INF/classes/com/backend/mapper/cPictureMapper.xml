@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.cPictureMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.cPicture">
+    <id column="id" jdbcType="INTEGER" property="pId" />
+    <result column="circle_id" jdbcType="INTEGER" property="cId" />
+    <result column="p_pic_url" jdbcType="VARCHAR" property="pPicUrl" />
+    <result column="p_wight" jdbcType="VARCHAR" property="pWight" />
+    <result column="p_hight" jdbcType="VARCHAR" property="pHight" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, circle_id, p_pic_url, p_wight, p_hight
+  </sql>
+  
+  <select id="getAllPicturesByCircleId" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_pictures
+    where circle_id in ${param2}
+    order by id
+  </select>
+  
+  <select id="getSpecifyPictures" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_pictures
+    where circle_id = #{cid,jdbcType=INTEGER}
+    order by id
+  </select>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_pictures
+    where id = #{pId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_circle_pictures
+    where id = #{pId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.cPicture">
+    insert into t_circle_pictures (id, circle_id, p_pic_url, 
+      p_wight, p_hight)
+    values (#{pId,jdbcType=INTEGER}, #{cId,jdbcType=INTEGER}, #{pPicUrl,jdbcType=VARCHAR}, 
+      #{pWight,jdbcType=VARCHAR}, #{pHight,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.cPicture">
+    insert into t_circle_pictures
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pId != null">
+        id,
+      </if>
+      <if test="cId != null">
+        circle_id,
+      </if>
+      <if test="pPicUrl != null">
+        p_pic_url,
+      </if>
+      <if test="pWight != null">
+        p_wight,
+      </if>
+      <if test="pHight != null">
+        p_hight,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pId != null">
+        #{pId,jdbcType=INTEGER},
+      </if>
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="pPicUrl != null">
+        #{pPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="pWight != null">
+        #{pWight,jdbcType=VARCHAR},
+      </if>
+      <if test="pHight != null">
+        #{pHight,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.cPicture">
+    update t_circle_pictures
+    <set>
+      <if test="cId != null">
+        circle_id = #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="pPicUrl != null">
+        p_pic_url = #{pPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="pWight != null">
+        p_wight = #{pWight,jdbcType=VARCHAR},
+      </if>
+      <if test="pHight != null">
+        p_hight = #{pHight,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{pId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.cPicture">
+    update t_circle_pictures
+    set circle_id = #{cId,jdbcType=INTEGER},
+      p_pic_url = #{pPicUrl,jdbcType=VARCHAR},
+      p_wight = #{pWight,jdbcType=VARCHAR},
+      p_hight = #{pHight,jdbcType=VARCHAR}
+    where id = #{pId,jdbcType=INTEGER}
+  </update>
+</mapper>

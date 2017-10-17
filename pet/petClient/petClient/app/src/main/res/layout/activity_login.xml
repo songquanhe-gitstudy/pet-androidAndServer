@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/login_beautiful22"
+android:orientation="vertical"
+    >
+
+<View
+    android:id="@+id/view1"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginRight="67dp"
+    android:layout_marginTop="370dp"
+    android:background="#576475" />
+
+<View
+    android:id="@+id/view2"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginRight="67dp"
+    android:layout_marginTop="410dp"
+    android:background="#576475" />
+
+<View
+    android:id="@+id/view3"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginRight="67dp"
+    android:layout_marginTop="450dp"
+    android:background="#576475" />
+
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/view1"
+    android:layout_marginTop="11dp"
+    android:layout_marginLeft="71dp"
+    android:src="@drawable/login_count" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_below="@+id/view2"
+    android:layout_marginTop="11dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="71dp"
+    android:src="@drawable/login_secret" />
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_alignRight="@+id/view1"
+    android:layout_below="@+id/view1"
+    android:layout_marginLeft="10dp"
+    android:textColor="#B0B8C3"
+    android:textSize="14sp"
+    android:gravity="center_vertical"
+    android:layout_marginTop="10dp"
+    android:layout_toRightOf="@+id/imageView1"
+    android:inputType="text"
+    android:background="#2A3A51"
+    />
+
+<EditText
+    android:id="@+id/etUsername"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_alignRight="@+id/view2"
+    android:layout_below="@+id/view2"
+    android:layout_marginLeft="10dp"
+    android:textColor="#B0B8C3"
+    android:gravity="center_vertical"
+    android:layout_marginTop="10dp"
+    android:layout_toRightOf="@+id/imageView2"
+    android:inputType="textPassword"
+    android:background="#2A3A51"
+    />
+<Button
+    android:id="@+id/enter"
+    android:layout_height="40dp"
+    android:layout_width="match_parent"
+    android:text="登    录"
+    android:textColor="#fff"
+    android:textSize="14sp"
+    android:layout_below="@+id/view3"
+    android:gravity="center"
+    android:layout_marginLeft="63dp"
+    android:layout_marginRight="61dp"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/login_button_bg"
+    />
+<Button
+    android:id="@+id/register"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/enter"
+    android:layout_marginTop="40dp"
+    android:text="have no account ?"
+    android:textColor="#576475"
+    android:textSize="12sp"
+    android:layout_centerHorizontal="true"
+    android:background="@null"
+    />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

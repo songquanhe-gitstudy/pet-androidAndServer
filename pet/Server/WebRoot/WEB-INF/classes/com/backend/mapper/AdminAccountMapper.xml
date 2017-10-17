@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.AdminAccountMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.AdminAccount">
+    <id column="account_name" jdbcType="VARCHAR" property="accountName" />
+    <result column="account_password" jdbcType="VARCHAR" property="accountPassword" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    account_name, account_password, telephone
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_admin_account
+    where account_name = #{accountName,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from t_admin_account
+    where account_name = #{accountName,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.AdminAccount">
+    insert into t_admin_account (account_name, account_password, telephone
+      )
+    values (#{accountName,jdbcType=VARCHAR}, #{accountPassword,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.AdminAccount">
+    insert into t_admin_account
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="accountName != null">
+        account_name,
+      </if>
+      <if test="accountPassword != null">
+        account_password,
+      </if>
+      <if test="telephone != null">
+        telephone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="accountName != null">
+        #{accountName,jdbcType=VARCHAR},
+      </if>
+      <if test="accountPassword != null">
+        #{accountPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null">
+        #{telephone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.AdminAccount">
+    update t_admin_account
+    <set>
+      <if test="accountPassword != null">
+        account_password = #{accountPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null">
+        telephone = #{telephone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where account_name = #{accountName,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.AdminAccount">
+    update t_admin_account
+    set account_password = #{accountPassword,jdbcType=VARCHAR},
+      telephone = #{telephone,jdbcType=VARCHAR}
+    where account_name = #{accountName,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.backend.mapper.cPraiseMapper">
+  <resultMap id="BaseResultMap" type="com.backend.domain.cPraise">
+    <id column="id" jdbcType="INTEGER" property="praId" />
+    <result column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="u_id" jdbcType="INTEGER" property="uId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, c_id, u_id
+  </sql>
+  
+  <select id="getTotalCountPraises" resultType="java.lang.Integer">
+  	SELECT count(id) FROM t_circle_praise where 1=1
+  </select>
+  
+  <select id="getSpecifyPraises" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_praise
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  
+  <delete id="deleteByCirAndUid" parameterType="java.lang.Integer">
+    delete from t_circle_praise
+    where c_id = #{param1,jdbcType=INTEGER}
+    And u_id = #{param2,jdbcType=INTEGER}
+  </delete>
+  
+  <select id="selectByCirAndUid" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_praise
+    where c_id = #{param1,jdbcType=INTEGER}
+    AND u_id = #{param2,jdbcType=INTEGER}
+  </select>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_circle_praise
+    where id = #{praId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_circle_praise
+    where id = #{praId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.backend.domain.cPraise">
+    insert into t_circle_praise (id, c_id, u_id
+      )
+    values (#{praId,jdbcType=INTEGER}, #{cId,jdbcType=INTEGER}, #{uId,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.backend.domain.cPraise">
+    insert into t_circle_praise
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="praId != null">
+        id,
+      </if>
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="uId != null">
+        u_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="praId != null">
+        #{praId,jdbcType=INTEGER},
+      </if>
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        #{uId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.backend.domain.cPraise">
+    update t_circle_praise
+    <set>
+      <if test="cId != null">
+        c_id = #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="uId != null">
+        u_id = #{uId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{praId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.backend.domain.cPraise">
+    update t_circle_praise
+    set c_id = #{cId,jdbcType=INTEGER},
+      u_id = #{uId,jdbcType=INTEGER}
+    where id = #{praId,jdbcType=INTEGER}
+  </update>
+</mapper>

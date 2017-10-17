@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/circle_head"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="245dp">
+
+    <ImageView
+        android:id="@+id/icon_circle_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:id="@+id/icon_circle_rebg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/circle"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/icon_head_circle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/me"
+        />
+
+    <TextView
+        android:id="@+id/name_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="55dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="自己"/>
+
+</RelativeLayout>

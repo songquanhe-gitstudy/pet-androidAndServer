@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>后台管理中心</title>  
+    <link rel="shortcut icon" href="${s.base}/res/backend/images/favicon.ico">
+    <link rel="Bookmark" href="${s.base}/res/backend/images/favicon.ico">
+    <link rel="stylesheet" href="${s.base}/res/backend/css/pintuer.css">
+    <link rel="stylesheet" href="${s.base}/res/backend/css/admin.css">
+    <script src="${s.base}/res/backend/js/jquery.js"></script>
+	<script src="${s.base}/res/backend/js/jquery.js"></script>
+	<script src="${s.base}/res/backend/js/layer/layer.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+		  $(".leftnav h2").click(function(){
+		      $(this).next().siblings("ul").slideUp(200);
+			  $(this).next().slideToggle(200);
+			  $(this).toggleClass("on"); 
+		  })
+		  $(".leftnav ul li a").click(function(){
+			  $(this).next().slideToggle(200);
+			  $(this).toggleClass("on"); 
+		  })
+		  var temp = 0;
+		  $("#UserManage").click(function(){
+		  	if (temp==0) {
+		  		$(this).children().attr("class","icon-caret-down");
+		  		temp=1;
+		  	}else if(temp==1){
+		  		$(this).children().attr("class","icon-caret-right");
+		  		temp=0;
+		  	}
+			   
+		  })
+		  $(".leftnav ul li a").click(function(){
+			    $("#a_leader_txt").text($(this).text());
+		  		$(".leftnav ul li a").removeClass("on");
+				$(this).addClass("on");
+		  })
+		});
+
+		$(".leftnav ul li a,.button input#news").click(function(){
+				 var location = $(this).text();
+				 $("#location").text("当前位置:"+location);
+		  })
+		  
+		 
+	</script>  
+</head>
+<!-- 主体 -->
+<body>
+	<!-- 头部 -->
+	<div class="header bg-main">
+		<!-- logo -->
+		<div class="logo margin-big-left fadein-top">
+			<h1><img src="${s.base}/res/backend/images/favicon.ico" class="radius-circle rotate-hover" height="50"/>宠物帮后台管理系统</h1>
+		</div>
+		<!-- 返回首页 -->
+		<div class="goback_home">
+			<a href="${s.base}/login/mainicon.html" style="color: #fff" target="right"><span class="icon-home">首页</span></a> 
+		</div>
+		<!-- 当前用户 -->
+		<div class="head-3">
+			<span class="icon-user curr_user">当前用户:&nbsp;<lable id = "accountName">${object.accountName}</lable></span>
+		</div>
+			
+		<!-- 新消息 -->
+		
+		<a href="${s.base}/backend/newmsg.html" target="right">
+			<div class="new_message">
+				<span class="icon_back1">新消息
+				
+				</span>
+			</div>
+		</a>
+
+		<!-- 退出登入 -->
+		<a href="${s.base}/login/backLogin.html">
+			<div class="back_form">
+				<span class="icon_img">
+					<img src="${s.base}/res/backend/images/back.png" style="position: absolute;top:22px;right: 82%;">
+				</span>
+				<span class="icon_back2">退出登录</span>
+				</span>
+			</div>
+		</a>
+	</div>
+
+</div>
+	<!-- 左边框  导航栏 -->
+	<div class="leftnav">
+		<div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
+	
+		<h2><span class="icon-user"></span>基本设置</h2>
+	
+			<ul>
+				<li><a id="UserManage"><span class="icon-caret-right"></span>用户管理</a>
+					<ul style="border-bottom: 1px solid #b5cfd9;">
+						<li id="lookP"><a><span class="icon-user"></span>申请中用户</a>
+							<ul style="border-bottom: 1px solid #b5cfd9;">
+								<li><a  href="${s.base}/normalAccountCtrl/appling.html?useable=0" target="right"><span></span>个人用户</a></li>
+								<li><a  href="${s.base}/enterpriseAccountCtrl/appling.html?useable=0" target="right"><span></span>企业用户</a></li>
+							</ul>
+						</li>
+						<li id="manageP"><a id="normalUserManage"><span class="icon-user"></span>外部用户管理</a>
+							<ul style="border-bottom: 1px solid #b5cfd9;">
+								<li><a id="personalUser" href="${s.base}/normalAccountCtrl/queryall.html?useable=1" target="right"><span></span>个人用户</a></li>
+								<li><a id="companyUser" href="${s.base}/enterpriseAccountCtrl/queryall.html?useable=1" target="right"><span></span>企业用户</a></li>
+							</ul>
+						</li>
+						<li id="rootP"><a id = "adminUserManager" href="${s.base}/adminAccountMgr/queryall.html" target="right"><span class="icon-user"></span>内部用户管理</a></li>
+					</ul>
+				</li>
+				
+				<li><a id="passChange" href="${s.base}/adminAccountMgr/modifymypasswordpage.html" target="right">当前用户信息</a></li>
+				<li><a id="Messagelist" href="${s.base}/msgboard/home.html" target="right">留言管理</a></li>
+			</ul>
+	
+		<!-- <h2><span class="icon-pencil-square-o"></span>项目管理</h2>
+			<ul>
+				<li>
+					<a href="${s.base}/project/pendingcheck.html" target="right">待审批项目</a>
+				</li>
+				<li>
+					<a href="${s.base}/Processed/processedcheck.html" target="right">已审批项目</a>
+				</li>
+				<li>
+					<a href="${s.base}/Deleted/deletecheck.html" target="right">已删除项目</a>
+				</li>
+				<li>
+					<a id = "ProjectCount" href="${s.base}/projectstatistic/statistic.html" target="right">项目统计</a>
+				</li>
+				<li>
+					<a href="${s.base}//Input/projInput.html" target="right">项目录入</a>
+				</li>   
+				<li>
+					<a href="${s.base}/accessory/accessoryEdit.html?state=102" target="right">附件编辑</a>
+				</li>            
+			</ul> -->
+	
+	
+		<h2 style="border-bottom: 1px solid #b5cfd9;"><span class="icon-pencil-square-o"></span>表单管理</h2>
+			<ul style="border-bottom: 1px solid #b5cfd9;border-top: 0px;">
+				<li><a id = "answers" href="${s.base}/News/newsEdit.html?type=0" target="right">t_news</a></li>
+				<li><a id = "newPublic" href="${s.base}/infoMgrNotice/noticeedit.html" target="right">2</a></li>
+				<li><a id = "newOthers" href="${s.base}/infoMgrInfo/infoedit.html" target="right">3</a></li> 
+				<li><a id = "newTables" href="${s.base}/infoMgrTable/tableedit.html" target="right">4</a></li>
+				<li><a id = "newLegs" href="${s.base}/infoMgrLaw/lawedit.html" target="right">5</a></li>
+			</ul>  
+	</div>
+	
+	<!-- 内容显示 -->
+	<div class="admin">
+		<iframe scrolling="auto" rameborder="0" src="${s.base}/News/newsEdit.html?type=0" name="right" width="100%" height="100%"></iframe>
+	</div>
+</body>
+</html>

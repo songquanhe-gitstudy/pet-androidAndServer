@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="220dp"
+    android:id="@+id/fl_detail_bg"
+             >
+<ImageView
+    android:id="@+id/ivBg"
+    android:src="@drawable/my_page_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    />
+
+    <LinearLayout
+        android:id="@+id/layout_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_register"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_above="@+id/tv_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/log_in_register"/>
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:paddingBottom="28.0dip"
+            android:text="登录推荐更精准"
+            android:textColor="@color/white"
+            android:textSize="14.0sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_head_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/layout_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="Wey Ye"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp"/>
+                <ImageView
+                    android:id="@+id/iv_detail_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/img_toutiaohao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:visibility="gone"/>
+
+                <!--<ImageView
+                    android:id="@+id/img_header_click_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:src="@drawable/name_arrow"/>-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="23.0dip"
+            android:layout_marginTop="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_attention"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_attention_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv_attention"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:text="关注"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_user_info_divider_one"
+                android:layout_width="0.5dip"
+                android:layout_height="38.0dip"
+                android:background="#1affffff"/>
+
+            <LinearLayout
+                android:id="@+id/ll_mycircle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_circle_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp"/>
+
+                <TextView
+                    android:id="@+id/txt_followers_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:text="圈子"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_user_info_divider_two"
+                android:layout_width="0.5dip"
+                android:layout_height="38.0dip"
+                android:background="#1affffff"/>
+
+            <LinearLayout
+                android:id="@+id/layout_fens"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_fens_counts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp"/>
+
+                <TextView
+                    android:id="@+id/txt_recent_visitors_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:text="粉丝"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
