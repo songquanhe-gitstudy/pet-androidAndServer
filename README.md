@@ -35,3 +35,16 @@ Tomcat版本：Tomcat7.x
 androidStudio导入petClient，MyEclipse导入server
 然后自己建立一个名为petLeaguedb的数据库并导入我在项目中提供的petleaguedb文件
 服务器端的jdbc.properties文件中改成本地localhost连接以及账号密码的更改
+
+# 项目演示
+
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/movie1.mp4)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/movie2.mp4)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/movie3.mp4)
+
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/1.png)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/2.png)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/3.png)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/4.png)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/5.png)
+![](https://github.com/songquanhe-gitstudy/pet-androidAndServer/blob/master/image/6.png)
