@@ -34,7 +34,9 @@ JDK版本：jdk1.7
 Tomcat版本：Tomcat7.x
 
 # 项目使用 
-androidStudio导入petClient，MyEclipse导入server
+1、直接下载apk文件安装到手机 登录时账号：路人甲 密码：123456
+
+2、androidStudio导入petClient，MyEclipse导入server
 然后自己建立一个名为petLeaguedb的数据库并导入我在项目中提供的petleaguedb文件
 服务器端的jdbc.properties文件中改成本地localhost连接以及账号密码的更改
 
